@@ -16,8 +16,17 @@ body{
 }
 
 header{
-    font-size: 50px;
     background-color: rgb(255, 240, 104);
     padding: 20px;
     text-align: center;
+}
+
+#pata {
+    width: 100px;
+    height: 100px;
+    justify-content: left;
+} 
+
+.h1{
+    justify-content: center;
 }
