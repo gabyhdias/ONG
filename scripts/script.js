@@ -13,7 +13,7 @@ document.getElementById("formAdocao").addEventListener("submit", function (e) {
     let pet = document.querySelector('input[name="pet"]:checked');
     let horas = document.getElementById("horas").value;
     let motivo = document.getElementById("motivo").value;
-    let termo = document.getElementById("termo").value;
+    let termos = document.querySelector('input[name="termos"]:checked');
 
     if(nome.length < 3 ) return alert("Nome Inválido");
     if(idade.value < 18 ) return alert("Idade Inválida");
