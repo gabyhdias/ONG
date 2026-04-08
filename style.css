@@ -10,7 +10,9 @@ body{
     margin: 20px;
     padding: 20px;
     width: 600px;
-    height: 600px;
+    height: 540px;
+    justify-items: center;
+    justify-self: center;
 }
 
 header{
