@@ -16,7 +16,10 @@ document.getElementById("formAdocao").addEventListener("submit", function (e) {
     let termo = document.getElementById("termo").value;
 
     if(nome.length < 3 ) return alert("Nome Inválido");
-    if(idade < 18 ) return resultado("bloqueado")
+    if(idade.value < 18 ) return alert("Idade Inválida");
+    if(telefone.lenght < 8 ) return alert("Telefone Inválido");
+    if(motivo.lenght < 10 ) return alert(Caracteres Insuficientes);
+    if()
 
     document.getElementById("resultado").innerHTML = "Cadastro realizado com sucesso!<br>" + "Nome: " + nome;
 });
