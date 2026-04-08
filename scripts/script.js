@@ -16,7 +16,7 @@ document.getElementById("formAdocao").addEventListener("submit", function (e) {
     let termo = document.getElementById("termo").value;
 
     if(nome.length < 3 ) return alert("Nome Inválido");
-    if(idade <18) return resultado("bloqueado")
+    if(idade < 18 ) return resultado("bloqueado")
 
     document.getElementById("resultado").innerHTML = "Cadastro realizado com sucesso!<br>" + "Nome: " + nome;
 });
