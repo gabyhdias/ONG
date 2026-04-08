@@ -12,6 +12,7 @@ document.getElementById("formAdocao").addEventListener("submit", function (e) {
     let quintal = document.querySelector('input[name="quintal"]:checked');
     let pet = document.querySelector('input[name="pet"]:checked');
     let horas = document.getElementById("horas").value;
+    let motivo = document.getElementById("motivo").value;
 
     if(nome.length < 3 ) return alert("Nome Inválido");
 
